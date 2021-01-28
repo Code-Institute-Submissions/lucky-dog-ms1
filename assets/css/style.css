@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Oswald:wght@200;300;400;600&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*-----------------------Colors---------*/
+.bg-color-heading {
+    background-color: #788cb6;
+}
+
+/*-----------------------Logo image---------*/
+.col-logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+
+}
+.col-logo i {
+    font-size: 60px;
+}
+/*-----------------------Nav items---------*/
+nav ul {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.menuitem a {
+    color: #000;
+    font-family: 'Oswald';
+    justify-content: center;
+    text-align: center;
+}
+
+.section-header {
+    align-items: center; 
+}
+
