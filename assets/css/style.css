@@ -15,11 +15,21 @@ h3 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: rgb(59, 58, 58);
 }
 
 /*-----------------------Colors---------*/
 .bg-color-heading {
     background-color: #788cb6;
+}
+.bg-color-contact {
+    background-color: #fdb813;
+}
+.bg-color-social {
+    background-color: #88aca1;
+}
+.bg-color-copyright {
+    background-color: #a1a1a4;
 }
 
 /*-----------------------Logo image---------*/
@@ -31,6 +41,7 @@ h3 {
 }
 .col-logo i {
     font-size: 60px;
+    color: rgb(59, 58, 58);
 }
 /*-----------------------Nav items---------*/
 nav ul {
@@ -38,8 +49,8 @@ nav ul {
     margin-right: 5%;
 }
 
-.menuitem a {
-    color: #000;
+.menuitem a, .menuitem p {
+    color: rgb(77, 75, 75);
     font-family: 'Oswald';
     justify-content: center;
     text-align: center;
@@ -49,3 +60,35 @@ nav ul {
     align-items: center; 
 }
 
+.footer-container .menuitem {
+    height: 40px;
+}
+
+.footer-container a {
+    padding-bottom: 5px;
+}
+
+.menuitem .social-links {
+   text-align: center;
+}
+
+.social-links p {
+    margin-bottom: 0;
+    display: inline;
+}
+.social-links a i {
+    padding: 0 8px 5px 8px;
+    font-size: 15px;
+    color: rgb(77, 75, 75);
+}
+
+/*-----------------------Media Queries---------*/
+
+@media screen and (min-width: 768px) {
+    .social-links p {
+        display: block;
+    }
+    .footer-container .menuitem {
+    height: 50px;
+    }
+}
