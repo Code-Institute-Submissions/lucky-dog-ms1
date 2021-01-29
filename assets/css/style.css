@@ -60,6 +60,9 @@ nav ul {
     align-items: center; 
 }
 
+.footer-container {
+    padding-top: 20px;
+}
 .footer-container .menuitem {
     height: 40px;
 }
@@ -82,6 +85,40 @@ nav ul {
     color: rgb(77, 75, 75);
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+
+.about-us-img {
+    padding-top: 10px;
+}
+.client-row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.client-dog-img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 33%;
+    height: auto;
+    border-radius: 50%;
+}
+.client-row p {
+    margin-bottom: 0;
+}
+.client-quote, .client-name {
+    text-align: center;
+}
+
+.client-text-content {
+    padding-top: 30px;
+}
+
 /*-----------------------Media Queries---------*/
 
 @media screen and (min-width: 768px) {
@@ -90,5 +127,15 @@ nav ul {
     }
     .footer-container .menuitem {
     height: 50px;
+    }
+    .client-dog-img {
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+      .client-dog-img {
+        width: 60%;
     }
 }
