@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Oswald:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&family=Lato:wght@100;300;700&family=Oswald:wght@200;300;400;600&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+    color: #79808d;
 }
 header {
     margin: 0;
@@ -11,25 +13,34 @@ header {
 h1,
 h2,
 h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: rgb(59, 58, 58);
+    color: whitesmoke;
+}
+
+h4, h5 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ee4f4f;
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 20px;
 }
 
 /*-----------------------Colors---------*/
-.bg-color-heading {
-    background-color: #788cb6;
-}
-.bg-color-contact {
-    background-color: #fdb813;
-}
-.bg-color-social {
-    background-color: #88aca1;
-}
-.bg-color-copyright {
-    background-color: #a1a1a4;
+
+.bg-color-heading, .bg-color-contact, .bg-color-social, .bg-color-copyright {
+    background-color: #616775; 
 }
 
 /*-----------------------Logo image---------*/
@@ -41,7 +52,7 @@ h3 {
 }
 .col-logo i {
     font-size: 60px;
-    color: rgb(59, 58, 58);
+    color: whitesmoke;
 }
 /*-----------------------Nav items---------*/
 nav ul {
@@ -50,11 +61,24 @@ nav ul {
 }
 
 .menuitem a, .menuitem p {
-    color: rgb(77, 75, 75);
-    font-family: 'Oswald';
+    color: whitesmoke;
+    font-family: 'Exo';
     justify-content: center;
     text-align: center;
 }
+
+.menuitem a {
+    text-decoration: none;
+}
+.menuitem a:hover, .menuitem p:hover {
+    color: #ee4f4f;
+    transition: 1s;
+}
+
+.active a {
+    color: #ee4f4f;
+}
+
 
 .section-header {
     align-items: center; 
@@ -82,7 +106,22 @@ nav ul {
 .social-links a i {
     padding: 0 8px 5px 8px;
     font-size: 15px;
-    color: rgb(77, 75, 75);
+    color: whitesmoke;
+}
+
+
+.about-us {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.reasons {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.client {
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 img {
@@ -94,7 +133,8 @@ img {
 }
 
 .about-us-img {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .client-row {
     padding-top: 15px;
