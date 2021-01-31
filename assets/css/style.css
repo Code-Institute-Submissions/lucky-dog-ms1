@@ -35,6 +35,10 @@ h5 {
     font-size: 20px;
 }
 
+.service-heading {
+    padding-top: 20px;
+}
+
 /*-----------------------Colors---------*/
 
 .bg-color-heading, .bg-color-contact, .bg-color-social, .bg-color-copyright {
@@ -95,6 +99,7 @@ nav ul {
     color: #ee4f4f;
 }
 /*-----------------------Footer items---------*/
+
 .footer-container .menuitem {
     height: 40px;
 }
@@ -119,6 +124,22 @@ nav ul {
     padding: 0 8px 5px 8px;
     font-size: 15px;
     color: whitesmoke;
+}
+
+/*-----------------------Buttons---------*/
+
+.btn {
+    background-color: #ee4f4f;
+    border-color: #ee4f4f;
+}
+
+.center-btn {
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.center-btn a {
+    margin-top: 20px;
 }
 
 /*-----------------------Home page sections---------*/
@@ -191,6 +212,29 @@ blockquote:before {
     top:-5px;
     left:-5px;
 }
+
+/*-----------------------Services boxes---------*/
+.single-box, 
+.weekly-box,
+.monthly-box,
+.sitting-box {
+    border: 1px solid #616775; 
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 5px 5px #616775;
+    height: 30vh;
+}
+
+.service-end-row {
+    margin-bottom: 40px;
+}
+
+.service-section {
+    height: auto;
+}
+
+
  
 /*-----------------------Media Queries---------*/
 @media screen and (max-width: 767px) {
@@ -228,6 +272,12 @@ blockquote:before {
         padding-top: 10%;
     }
 
+        footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+}
     .client-dog-img {
         width: 58%;
         height: 50%;
