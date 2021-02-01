@@ -42,7 +42,8 @@ h6 {
     font-weight: 500;
 }
 
-.service-heading {
+.service-heading,
+.team-heading {
     padding-top: 20px;
 }
 
@@ -174,6 +175,15 @@ nav ul {
     margin-top: 20px;
 }
 
+.team-contact-btn {
+    text-align: center;
+}
+
+.team-contact-btn a:hover {
+    color: #ee4f4f;
+    transition: 1s;
+}
+
 /*-----------------------Home page sections---------*/
 .about-us {
     padding-top: 15px;
@@ -247,11 +257,13 @@ blockquote:before {
 
 /*-----------------------Services boxes---------*/
 
-.service-heading-row {
+.service-heading-row,
+.team-heading-row {
     padding-top: 40px;
 }
 
-.service-box-row {
+.service-box-row,
+.team-row {
     padding-top: 30px;
 }
 .single-box, 
@@ -279,7 +291,26 @@ blockquote:before {
     width: 33%;
 }
 
- 
+/*-----------------------Team---------*/
+ .name-heading {
+     color: #ee4f4f;
+     font-weight: 400;
+ }
+
+ .team-img {
+     padding-top: 15px;
+     padding-bottom: 15px;
+ }
+
+ .team-quals {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 30px;
+ }
+
+ .team-contact-row {
+     margin-bottom: 40px;
+ }
 /*-----------------------Media Queries---------*/
 @media screen and (max-width: 767px) {
         body {
@@ -314,6 +345,7 @@ blockquote:before {
 @media screen and (min-width: 992px) {
         body {
         padding-top: 10%;
+        padding-bottom: 10%;
     }
 
         footer {
