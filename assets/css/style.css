@@ -43,8 +43,13 @@ h6 {
 }
 
 .service-heading,
-.team-heading {
+.team-heading,
+.contact-heading {
     padding-top: 20px;
+}
+
+.contact-heading {
+    padding-bottom: 20px;
 }
 
 /*-----------------------Colors---------*/
@@ -258,7 +263,8 @@ blockquote:before {
 /*-----------------------Services boxes---------*/
 
 .service-heading-row,
-.team-heading-row {
+.team-heading-row,
+.contact-heading-row {
     padding-top: 40px;
 }
 
@@ -311,6 +317,16 @@ blockquote:before {
  .team-contact-row {
      margin-bottom: 40px;
  }
+
+/*-----------------------Contact Form---------*/
+.contact-col,
+.map-col {
+    padding: 20px 30px;
+}
+
+.map-col iframe {
+    padding-top: 20px;
+}
 /*-----------------------Media Queries---------*/
 @media screen and (max-width: 767px) {
         body {
