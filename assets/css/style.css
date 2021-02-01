@@ -15,7 +15,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     font-family: 'Exo', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
@@ -35,6 +36,12 @@ h5 {
     font-size: 20px;
 }
 
+h6 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 .service-heading {
     padding-top: 20px;
 }
@@ -51,6 +58,24 @@ h5 {
 
 .reasons {
     background-color: #d4d9e4; 
+}
+
+.single-box {
+    background-color: rgba(122, 56, 184, 0.61);
+    color: whitesmoke;
+}
+
+.weekly-box {
+    background-color: rgba(51, 179, 151, 0.87);
+    color: whitesmoke;
+}
+.monthly-box {
+    background-color: rgba(60, 134, 218, 0.87);
+    color: whitesmoke;
+}
+.sitting-box {
+    background-color: rgba(236, 161, 75, 0.89);
+    color: whitesmoke;
 }
 
 /*-----------------------Logo image---------*/
@@ -129,8 +154,15 @@ nav ul {
 /*-----------------------Buttons---------*/
 
 .btn {
-    background-color: #ee4f4f;
-    border-color: #ee4f4f;
+    background-color: #616775;
+    border-color: #616775;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.center-btn a:hover {
+    color: #ee4f4f;
+    transition: 1s;
 }
 
 .center-btn {
@@ -214,16 +246,25 @@ blockquote:before {
 }
 
 /*-----------------------Services boxes---------*/
+
+.service-heading-row {
+    padding-top: 40px;
+}
+
+.service-box-row {
+    padding-top: 30px;
+}
 .single-box, 
 .weekly-box,
 .monthly-box,
 .sitting-box {
-    border: 1px solid #616775; 
+    border-radius: 10px;
     padding-top: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-    box-shadow: 3px 3px 5px 5px #616775;
-    height: 30vh;
+    width: 66%;
+    height: 35vh;
+    margin-left: 16%;
 }
 
 .service-end-row {
@@ -233,7 +274,10 @@ blockquote:before {
 .service-section {
     height: auto;
 }
-
+.hr-services {
+    background-color: whitesmoke;
+    width: 33%;
+}
 
  
 /*-----------------------Media Queries---------*/
