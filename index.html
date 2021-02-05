@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Lucky Dog</title>
 </head>
+
 <body>
     <header>
+        <!-- Boostrap grid system, fixed-top class in use for header -->
         <div class="container-fluid bg-color-heading fixed-top">
             <div class="row section-header">
                 <div class="col-9 col-md-4 col-lg-3">
@@ -23,7 +25,7 @@
                 <div class="d-none d-lg-block col-lg-4">
                     <h3>Premium Dog Walking Service in Cork City area</h3>
                 </div>  
-
+          <!-- Boostrap classes in use for nav element for formatting and styling, Hover.css hvr-grow class in use on list items -->
                 <nav class="col-12 col-md-7 col-lg-4 d-flex justify-content-center">          
                     <ul class="nav navbar-navlist-inline">
                         <li class="list-inline-item menuitem active"><a href="index.html">Home</a> | </li>
@@ -36,6 +38,9 @@
         </div>
     </header>
 
+    <!-- Bootstrap grid system in use for each section structure  -->
+    
+    <!-- Section 1: info about the business -->
     <section class="about-us">
         <div class="container">
            <div class="about-us-img">
@@ -46,16 +51,17 @@
                     <h4>Who we are and what we do</h4>
                     <p>We love dogs! At Lucky Dog, we provide premium dog walking services all around the Cork City area no matter the weather! 
                         All breeds and sizes welcome. Caring for your dog is out top priority. All our dog walkers are qualified in Animal First Aid as well
-                        as having many years of dog ownership experience. Check out our team here (add link).</p>
+                        as having many years of dog ownership experience. Check out our team <a href="team.html"><span class="int-link">here</span></a>.</p>
                     <p> After each walk we will send you a photo and email update. We provide excellent care for your pet and peace of mind for you. We guarantee
-                        individual attention for your dog. Get in touch to discuss your dog's needs (add link)!
+                        individual attention for your dog. <a href="contact.html"><span class="int-link">Get in touch</span></a> to discuss your dog's needs!
                     </p>
-                    <p>We can also provide pet sitting services in your home. Please contact us for further info! (add link)</p>
+                    <p>We can also provide pet sitting services in your home. Please <a href="contact.html"><span class="int-link">contact us</span></a> for further info!</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Section 2: importance of walking dogs -->
     <section class="reasons">
         <div class="container">
             <div class="about-us-img">
@@ -78,45 +84,43 @@
         </div>
     </section>
 
-    <section class="client">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <h4>What our clients say</h4>
-                </div>  
-            </div> 
-
-            <div class="row client-row">
-                    <div class="col-12 col-lg-4">
-                        <img src="assets/images/lab1.jpg" alt="Robert's dog" class="client-dog-img">
-                        <div class="client-text-content">
-                            <blockquote>
-                                <p class="client-quote">
-                                        "Lucky Dog do a great job! Our labrador is always so happy and tired when he gets back! It takes the stress out of working and having a dog."
-                                </p>
-                                <hr>
-                                <p class="client-name">Robert, Ballincollig</p>
-                            </blockquote>
-                        </div>  
-                    </div>
-            
- 
-                    <div class="col-12 col-lg-4">      
-                        <img src="assets/images/maltese1.jpg" alt="Aisling's dog" class="client-dog-img">
-                        <div class="client-text-content"> 
-                            <blockquote>
-                                <p class="client-quote">
-                                    "A reliable and very professional service, I love getting the photo updates and see how happy our dog Rosie is when she is out with them,
-                                    even in the rain!"
-                                </p>
-                                <hr>
-                                <p class="client-name">Aisling, Blackrock</p>
-                            </blockquote>
-                        </div> 
+    <!-- Section 3: client testimonials -->
+        <section class="client">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h4>What our clients say</h4>
                     </div>  
+                </div> 
+
+                <div class="row client-row">
+                        <div class="col-12 col-lg-4">
+                            <img src="assets/images/lab1.jpg" alt="Robert's dog" class="client-dog-img">
+                            <div class="client-text-content">
+                                <blockquote>
+                                    <p class="client-quote">
+                                            "Lucky Dog do a great job! Our labrador is always so happy and tired when he gets back! It takes the stress out of working and having a dog."
+                                    </p>
+                                    <hr>
+                                    <p class="client-name">Robert, Ballincollig</p>
+                                </blockquote>
+                            </div>  
+                        </div>
+            
+                        <div class="col-12 col-lg-4">      
+                            <img src="assets/images/maltese1.jpg" alt="Aisling's dog" class="client-dog-img">
+                            <div class="client-text-content"> 
+                                <blockquote>
+                                    <p class="client-quote">
+                                        "A reliable and very professional service, I love getting the photo updates and see how happy our dog Rosie is when she is out with them,
+                                        even in the rain!"
+                                    </p>
+                                    <hr>
+                                    <p class="client-name">Aisling, Blackrock</p>
+                                </blockquote>
+                            </div> 
+                        </div>  
                     
-                      
-                 
                      <div class="col-12 col-lg-4">   
                         <img src="assets/images/collie1.jpg" alt="Ciara's dog" class="client-dog-img">
                             <div class="client-text-content">
@@ -131,9 +135,10 @@
                             </div>
                     </div> 
                 </div>  
-              </div>   
+            </div>   
     </section>
 
+    <!-- Bootstrap used for footer structure -->
     <footer>
         <div class="container-fluid">
             <div class="row footer-container">
@@ -155,7 +160,5 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>    
 </body>
 </html>

@@ -191,6 +191,14 @@ img {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.about-us a {
+    text-decoration: none;
+}
+.int-link {
+    color: #ee4f4f;
+    
+}
 .reasons {
     padding-top: 15px;
     padding-bottom: 20px;
