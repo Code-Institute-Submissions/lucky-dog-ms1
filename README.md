@@ -134,7 +134,9 @@ This project will ensure the user can clearly understand what service the busine
    + Client testimonial photo 3 Photo by [Baptist Standaert](https://unsplash.com/@baptiststandaert?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/dog-on-lead?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
    
 * Team page images - 
-
+   + Team Photo 'Debrorah' Photo by [Wade Austin Ellis](https://unsplash.com/@wadeaustinellis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/woman-with-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+   + Team Photo 'Michelle' Photo by [Luke McKeown](https://unsplash.com/@waikatospear?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/woman-with-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+   + Team Photo "Sean" Photo by [Zach Lucero](https://unsplash.com/@zlucerophoto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/man-with-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 
 ### Acknowledgements
