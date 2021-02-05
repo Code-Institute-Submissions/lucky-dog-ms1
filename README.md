@@ -80,7 +80,7 @@ This project will ensure the user can clearly understand what service the busine
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 
-#### Programs and Frameworks
+#### Programs, Frameworks, Resources
 
 * [Bootstrap v.4.5.3](https://getbootstrap.com/) - used for styling throughout, ensuring a responsive website. 
 * [Google Fonts](https://fonts.google.com/) - used Google fonts across the website for styling.
@@ -88,9 +88,20 @@ This project will ensure the user can clearly understand what service the busine
 * [Hover.CSS](https://ianlunn.github.io/Hover/) - used to add a simple grow effect on hovering over icons and buttons.
 * [Gitpod](https://www.gitpod.io/) - IDE used for writing & editing code, version control
 * [Github](https://github.com/) - Code hosting platform
+* [Pixlr](https://pixlr.com/) - photo editor to resize images
+* [TinyPNG](https://tinypng.com/) - used to compress images
 
 ## Testing
 
+### Code Validation
+
+### Manual Testing
+
+### User stories Testing
+
+### Bugs & Fixes
+
+* Wireframe issues - problems linking to wireframes from this file so I moved the wireframes folder from assets to root level, re-exported the original wireframes from Balsamiq and re-loaded to the wireframes folder. Content of wireframes not changed from original during this process. 
 
 
 ## Deployment
@@ -111,9 +122,17 @@ This project will ensure the user can clearly understand what service the busine
 
 ### Media
 
+* [Google maps](https://www.google.com/maps/@53.800651,-4.064941,6z) - map of Cork City embedded in contact page - this is a general map of cork city as this is a fictional business and so has no real world address or location to pin on the map. This would be included for a real business.
+
 #### Images
 
 * Home page images - 
+   + Top Photo by [gotdaflow](https://unsplash.com/@gettagottaflow?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/dogs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+   + Middle Photo by [Alvan Nee](https://unsplash.com/@alvannee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/dogs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+   + Client testimonial photo 1 Photo by [Noémi Macavei-Katócz](https://unsplash.com/@noemieke?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/happy-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+   + Client testimonial photo 2 Photo by [RitaE](https://pixabay.com/users/ritae-19628/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3635504) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3635504)
+   + Client testimonial photo 3 Photo by [Baptist Standaert](https://unsplash.com/@baptiststandaert?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/dog-on-lead?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+   
 * Team page images - 
 
 
