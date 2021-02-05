@@ -1,6 +1,7 @@
 # Lucky Dog
 
-Lucky dog is a website created for a fictional small business providing dog walking services in the Cork City area.
+Lucky dog is a website created for a fictional small business providing dog walking services in the Cork City area. 
+The website is for anyone that owns or cares for a dog and may not have the time, or may not be physically able to walk their dogs every day.
 
 The primary goal of the website from the site owner's perspective is to lead potential customers to make contact with the business in order to book a dog walker.
 
@@ -17,7 +18,6 @@ This project will ensure the user can clearly understand what service the busine
 ### User Stories
 
 
-
 * As a user of this website, I want to find out what the business does and what services they provide.
 * As a user, I want to find out in what geographical areas are services available. 
 * As a user, I want to be reassured they will keep my dog safe.
@@ -30,8 +30,13 @@ This project will ensure the user can clearly understand what service the busine
 
 
 
+### Wireframes
 
-Wireframes
+* [Home page](wireframes/homepage.pdf)
+* [Services page](wireframes/servicespage.pdf)
+* [Team page](wireframes/teampage.pdf)
+* [Contact page](wireframes/teampage.pdf)
+
 
 
 
@@ -70,7 +75,19 @@ Wireframes
 
 ## Technologies Used
 
+#### Languages
 
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+
+#### Programs and Frameworks
+
+* [Bootstrap v.4.5.3](https://getbootstrap.com/) - used for styling throughout, ensuring a responsive website. 
+* [Google Fonts](https://fonts.google.com/) - used Google fonts across the website for styling.
+* [Font awesome v.5.15.2](https://fontawesome.com/) - used for logo icon, social media links icons
+* [Hover.CSS](https://ianlunn.github.io/Hover/) - used to add a simple grow effect on hovering over icons and buttons.
+* [Gitpod](https://www.gitpod.io/) - IDE used for writing & editing code, version control
+* [Github](https://github.com/) - Code hosting platform
 
 ## Testing
 
@@ -84,8 +101,21 @@ Wireframes
 
 ### Content
 
+* Portion of Text content for "Why does your dog need walks" taken from [The Animal Foundation](https://animalfoundation.com/whats-going-on/blog/importance-walking-your-dog)
+* Remaining text content written by myself
+
+
+### Code
+
+* CSS code for styling the blockquotes section taken from [Stackskills course](https://stackskills.com/courses/author/18484) by Jonas Schmedtmann "Build Responsive Real World Websites with HTML5 and CSS3". 
 
 ### Media
+
+#### Images
+
+* Home page images - 
+* Team page images - 
+
 
 
 ### Acknowledgements
