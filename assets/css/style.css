@@ -10,7 +10,7 @@ header {
     margin: 0;
     padding: 0;
 }
-/*------------------------------Headings-----*/
+/*--------Headings-----*/
 h1,
 h2,
 h3,
@@ -25,66 +25,48 @@ h6 {
     margin-bottom: 10px;
     color: whitesmoke;
 }
-
-h4, h5 {
+h4, 
+h5, 
+h6 {
     color: #ee4f4f;
     font-size: 30px;
-    text-transform: uppercase;
-}
-
-h5 {
-    font-size: 20px;
-}
-
-h6 {
-    text-transform: uppercase;
-    font-size: 25px;
     font-weight: 500;
+    text-transform: uppercase;
 }
-
+h5, 
+h6 {
+    font-size: 25px;
+}
 .service-heading,
 .team-heading,
 .contact-heading {
     padding-top: 20px;
 }
-
 .contact-heading {
     padding-bottom: 20px;
 }
 
-/*-----------------------Colors---------*/
-
-.bg-color-heading, .bg-color-contact, .bg-color-social, .bg-color-copyright {
+/*--------Colors---------*/
+.bg-color-heading, 
+.bg-color-contact, 
+.bg-color-social, 
+.bg-color-copyright {
     background-color: #616775; 
 }
-
 .footer-container {
     background-color: #616775; 
 }
-
 .reasons {
     background-color: #d4d9e4; 
 }
-
-.single-box {
-    background-color: rgba(122, 56, 184, 0.61);
-    color: whitesmoke;
+.single-box,
+.weekly-box,
+.monthly-box,
+.sitting-box  {
+    background-color: #d4d9e4;
 }
 
-.weekly-box {
-    background-color: rgba(51, 179, 151, 0.87);
-    color: whitesmoke;
-}
-.monthly-box {
-    background-color: rgba(60, 134, 218, 0.87);
-    color: whitesmoke;
-}
-.sitting-box {
-    background-color: rgba(236, 161, 75, 0.89);
-    color: whitesmoke;
-}
-
-/*-----------------------Logo image---------*/
+/*-----------Logo--------*/
 .col-logo {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -97,27 +79,26 @@ h6 {
     color: whitesmoke;
 }
 
-/*-----------------------Nav items---------*/
+/*--------Nav---------*/
 nav ul {
     margin-left: 5%;
     margin-right: 5%;
     font-size: 12px;
 }
-
 .section-header {
     align-items: center; 
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-/*-----------------------Nav & Footer items---------*/
-.menuitem a, .menuitem p {
+/*----Nav & Footer items---*/
+.menuitem a, 
+.menuitem p {
     color: whitesmoke;
     font-family: 'Exo';
     justify-content: center;
     text-align: center;
 }
-
 .menuitem a {
     text-decoration: none;
 }
@@ -125,28 +106,26 @@ nav ul {
     color: #ee4f4f;
     transition: 1s;
 }
-
 .active a {
     color: #ee4f4f;
 }
-/*-----------------------Footer items---------*/
+/*--------Footer--------*/
 
-.footer-container .menuitem {
+.footer-container 
+.menuitem {
     height: 40px;
 }
-
 .footer-container a {
     padding-bottom: 5px;
 }
-
-.bg-color-contact, .bg-color-social, .bg-color-copyright {
+.bg-color-contact, 
+.bg-color-social, 
+.bg-color-copyright {
     padding-top: 5px;
 }
-
 .menuitem .social-links {
    text-align: center;
 }
-
 .social-links p {
     margin-bottom: 0;
     display: inline;
@@ -157,39 +136,57 @@ nav ul {
     color: whitesmoke;
 }
 
-/*-----------------------Buttons---------*/
-
+/*-------Buttons---------*/
 .btn {
     background-color: #616775;
     border-color: #616775;
     color: whitesmoke;
     font-weight: 500;
 }
-
 .center-btn a:hover {
     color: #ee4f4f;
     transition: 1s;
 }
-
 .center-btn {
     text-align: center;
     padding: 20px 15px;
 }
-
 .center-btn a {
     margin-top: 20px;
 }
-
 .team-contact-btn {
     text-align: center;
 }
-
 .team-contact-btn a:hover {
     color: #ee4f4f;
     transition: 1s;
 }
 
-/*-----------------------Home page sections---------*/
+/*------Images------*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+.about-us-img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.client-dog-img {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+}
+.team-img {
+     padding-top: 15px;
+     padding-bottom: 15px;
+ }
+
+/*------Home page sections------*/
 .about-us {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -198,51 +195,26 @@ nav ul {
     padding-top: 15px;
     padding-bottom: 20px;
 }
-
 .client {
     padding-top: 25px;
     padding-bottom: 20px;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: auto;
-}
-
-.about-us-img {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.client-dog-img {
-    padding-top: 0;
-    padding-bottom: 0;
-    width: 180px;
-    height: auto;
-    border-radius: 50%;
 }
 .client-row {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 .client-row p {
     margin-bottom: 0;
 }
-
 .client-quote, .client-name {
     text-align: center;
 }
-
 .client-text-content {
     padding-top: 5px;
     padding-bottom: 20px;
 }
 
-/*-----------------------Quotes styling---------*/
+/*---Quotes styling----*/
 blockquote {
     padding: 2%;
     font-style: italic;
@@ -250,7 +222,6 @@ blockquote {
     position: relative;
     margin-top: 40px;
 }
-
 blockquote:before {
     content: "\201C";
     display: block;
@@ -259,15 +230,13 @@ blockquote:before {
     top:-5px;
     left:-5px;
 }
-
-/*-----------------------Services boxes---------*/
+/*---Services boxes----*/
 
 .service-heading-row,
 .team-heading-row,
 .contact-heading-row {
     padding-top: 40px;
 }
-
 .service-box-row,
 .team-row {
     padding-top: 30px;
@@ -276,70 +245,56 @@ blockquote:before {
 .weekly-box,
 .monthly-box,
 .sitting-box {
-    border-radius: 10px;
+    border-radius: 5px;
     padding-top: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
     width: 66%;
     height: 35vh;
     margin-left: 16%;
+    box-shadow: 10px 10px 10px #616775;
 }
-
 .service-end-row {
     margin-bottom: 40px;
 }
-
 .service-section {
     height: auto;
 }
 .hr-services {
-    background-color: whitesmoke;
+    background-color: #ee4f4f;
     width: 33%;
 }
 
-/*-----------------------Team---------*/
- .name-heading {
-     color: #ee4f4f;
-     font-weight: 400;
- }
-
- .team-img {
-     padding-top: 15px;
-     padding-bottom: 15px;
- }
-
+/*----------Team---------*/
+ 
  .team-quals {
     padding-top: 15px;
     padding-bottom: 15px;
     line-height: 30px;
  }
-
  .team-contact-row {
      margin-bottom: 40px;
  }
 
-/*-----------------------Contact Form---------*/
+/*-------Contact Form---------*/
 .contact-col,
 .map-col {
     padding: 20px 30px;
 }
-
 .map-col iframe {
     padding-top: 20px;
 }
-/*-----------------------Media Queries---------*/
+/*-------Media Queries---------*/
 @media screen and (max-width: 767px) {
         body {
         padding-top: 40%;
     }
-
-    img {
+        img {
         width: 80%;
     }
 }
 
 @media screen and (min-width: 768px) {
-
     body {
         padding-top: 20%;
     }
@@ -370,13 +325,12 @@ blockquote:before {
         padding-top: 10%;
         padding-bottom: 10%;
     }
-
         footer {
         position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
-}
+    }
         img {
                 width: 60%;
     }
