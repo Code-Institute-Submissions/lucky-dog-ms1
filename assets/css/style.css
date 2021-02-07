@@ -2,8 +2,9 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 18px;
     background-color: whitesmoke;
-    color: #79808d;
+    color: #50545c;
     padding-top: 10%;
 }
 header {
@@ -272,6 +273,7 @@ blockquote:before {
     background-color: #ee4f4f;
     width: 33%;
 }
+
 
 /*----------Team---------*/
  
