@@ -261,20 +261,24 @@ blockquote:before {
     width: 82%;
     height: 43vh;
     margin-left: 9%;
-    box-shadow: 10px 10px 10px #616775;
+    box-shadow: 10px 10px 10px #616775;   
 }
+
 .single-box p, 
 .weekly-box p,
 .monthly-box p,
 .sitting-box p {
     padding: 5px 8px 5px 8px;
 }
-
 .service-end-row {
     margin-bottom: 40px;
 }
+
 .service-section {
     height: auto;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hr-services {
     background-color: #ee4f4f;
