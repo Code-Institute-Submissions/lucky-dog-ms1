@@ -162,6 +162,10 @@ nav ul {
     color: #ee4f4f;
     transition: 1s;
 }
+.submit-btn:hover {
+    color: #ee4f4f;
+    transition: 1s;
+}
 
 /*------Images------*/
 img {
@@ -304,6 +308,11 @@ blockquote:before {
 }
 .map-col iframe {
     padding-top: 20px;
+}
+
+.contact-col .submit-btn {
+    display: flex;
+    margin: 0 auto; 
 }
 /*-------Media Queries---------*/
 @media screen and (max-width: 767px) {
