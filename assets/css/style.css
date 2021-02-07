@@ -258,11 +258,18 @@ blockquote:before {
     padding-top: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 66%;
-    height: 35vh;
-    margin-left: 16%;
+    width: 82%;
+    height: 43vh;
+    margin-left: 9%;
     box-shadow: 10px 10px 10px #616775;
 }
+.single-box p, 
+.weekly-box p,
+.monthly-box p,
+.sitting-box p {
+    padding: 5px 8px 5px 8px;
+}
+
 .service-end-row {
     margin-bottom: 40px;
 }
@@ -302,6 +309,14 @@ blockquote:before {
         img {
         width: 80%;
     }
+    .single-box, 
+    .weekly-box,
+    .monthly-box,
+    .sitting-box 
+        {
+        height: auto; 
+        padding-bottom: 5px;
+        }
 }
 
 @media screen and (min-width: 768px) {
@@ -348,4 +363,5 @@ blockquote:before {
             width: 240px;
             height: 240px;
     }
-}
+   
+} 
