@@ -19,6 +19,7 @@ h4,
 h5,
 h6 {
     font-family: 'Exo', sans-serif;
+    font-size: 25px;
     font-weight: 300;
     letter-spacing: 2px;
     text-align: center;
@@ -30,13 +31,16 @@ h4,
 h5, 
 h6 {
     color: #ee4f4f;
-    font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
 }
 h5, 
 h6 {
     font-size: 25px;
+}
+
+#company-description {
+    font-size: 20px;
 }
 .service-heading,
 .team-heading,
@@ -76,15 +80,20 @@ h6 {
 
 }
 .col-logo i {
-    font-size: 60px;
+    font-size: 40px;
     color: whitesmoke;
 }
 
 /*--------Nav---------*/
 nav ul {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 12px;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 16px;
+}
+
+#nav-section {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .section-header {
     align-items: center; 
@@ -93,6 +102,10 @@ nav ul {
 }
 
 /*----Nav & Footer items---*/
+ul .menuitem a {
+    font-size: 16px;
+}
+
 .menuitem a, 
 .menuitem p {
     color: whitesmoke;
@@ -315,10 +328,18 @@ blockquote:before {
     margin: 0 auto; 
 }
 /*-------Media Queries---------*/
+
 @media screen and (max-width: 767px) {
         body {
         padding-top: 40%;
     }
+        ul .menuitem a {
+        font-size: 12px;
+    }
+    /* .menuitem a, 
+    .menuitem p {
+        font-size: 12px;
+    } */
         img {
         width: 80%;
     }
@@ -336,9 +357,7 @@ blockquote:before {
     body {
         padding-top: 20%;
     }
-    nav ul {
-        font-size: 16px;
-    }
+   
     .social-links p {
         display: block;
     }
