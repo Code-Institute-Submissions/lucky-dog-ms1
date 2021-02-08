@@ -34,11 +34,6 @@ h6 {
     font-weight: 500;
     text-transform: uppercase;
 }
-h5, 
-h6 {
-    font-size: 25px;
-}
-
 #company-description {
     font-size: 20px;
 }
@@ -105,7 +100,6 @@ nav ul {
 ul .menuitem a {
     font-size: 16px;
 }
-
 .menuitem a, 
 .menuitem p {
     color: whitesmoke;
@@ -209,13 +203,11 @@ img {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 .about-us a {
     text-decoration: none;
 }
 .int-link {
     color: #ee4f4f;
-    
 }
 .reasons {
     padding-top: 15px;
@@ -280,7 +272,6 @@ blockquote:before {
     margin-left: 9%;
     box-shadow: 10px 10px 10px #616775;   
 }
-
 .single-box p, 
 .weekly-box p,
 .monthly-box p,
@@ -290,18 +281,10 @@ blockquote:before {
 .service-end-row {
     margin-bottom: 40px;
 }
-
-.service-section {
-    height: auto;
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .hr-services {
     background-color: #ee4f4f;
     width: 33%;
 }
-
 
 /*----------Team---------*/
  
@@ -336,60 +319,56 @@ blockquote:before {
         ul .menuitem a {
         font-size: 12px;
     }
-    /* .menuitem a, 
-    .menuitem p {
-        font-size: 12px;
-    } */
         img {
         width: 80%;
     }
-    .single-box, 
-    .weekly-box,
-    .monthly-box,
-    .sitting-box 
-        {
-        height: auto; 
-        padding-bottom: 5px;
-        }
+        .single-box, 
+        .weekly-box,
+        .monthly-box,
+        .sitting-box 
+            {
+            height: auto; 
+            padding-bottom: 5px;
+            }
 }
 
 @media screen and (min-width: 768px) {
-    body {
-        padding-top: 20%;
-    }
-   
-    .social-links p {
-        display: block;
-    }
-    .footer-container .menuitem {
-        height: 60px;
-    }
-    img {
-        width: 70%;
-    }
-    .client-dog-img {
-        width: 200px;
-    }
-    .client-row {
-        width: 96%;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
+        body {
+            padding-top: 20%;
+        }
+    
+        .social-links p {
+            display: block;
+        }
+        .footer-container .menuitem {
+            height: 60px;
+        }
+        img {
+            width: 70%;
+        }
+        .client-dog-img {
+            width: 200px;
+        }
+        .client-row {
+            width: 96%;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
 }
 
 @media screen and (min-width: 992px) {
         body {
-        padding-top: 10%;
-        padding-bottom: 10%;
+            padding-top: 10%;
+            padding-bottom: 10%;
     }
         footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
     }
         img {
-                width: 60%;
+            width: 60%;
     }
         .client-dog-img {
             width: 240px;
