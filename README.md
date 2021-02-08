@@ -9,14 +9,16 @@ The primary goal of the website from a user's perspective is to easily find a pr
 
  
 ## UX
- 
-This website is for dog owners in the Cork City area who are unable to walk their dogs every day.
-As a user, they can find out about the dog walkers background and experience to ensure they are confident in the dog walkers ability and experience in handling dogs, the pricing structure for the service and how to contact the business.
 
-This project will ensure the user can clearly understand what service the business provides, and how to make contact to book a walk by providing an intuitive, responsive website.
+### Project goals
+* This website is for dog owners in the Cork City area who are unable to walk their dogs every day. This project will allow them to connect with a service that can fill this 
+        requirement for them. It will ensure the user can clearly understand what service the business provides, and how to make contact to book a walk by providing an intuitive, 
+        responsive website. 
+* As a user, they can find out about the dog walkers background and experience to ensure they are confident in the dog walkers ability and experience in handling dogs, the pricing 
+       structure for the service and how to contact the business.
+* As a business owner, this website is aimed at generating bookings and building a client base locally.
 
 ### User Stories
-
 
 * As a user of this website, I want to find out what the business does and what services they provide.
 * As a user, I want to find out in what geographical areas are services available. 
@@ -29,7 +31,6 @@ This project will ensure the user can clearly understand what service the busine
 * As a user, I want to be able to follow them on social media for the very latest updates.
 
 
-
 ### Wireframes
 
 * [Home page](wireframes/homepage.pdf)
@@ -37,19 +38,18 @@ This project will ensure the user can clearly understand what service the busine
 * [Team page](wireframes/teampage.pdf)
 * [Contact page](wireframes/teampage.pdf)
 
-
-
-
+### Design
 
 ## Features
 
 #### Existing Features
 
-- Home page with 5 main sections 
-    * Navbar with company name and logo (logo will be linked to click back to the home page), a heading to emphasise what the business is and links to each of the 4 pages (this will be consistent across all pages)
-    * Introductory section with image about our business
-    * Section with image about the importance and benefits of regular exercise for dogs
-    * Section with client testimonials
+- Home page
+    * Navbar with company name and logo (logo will be linked to click back to the home page), a heading to emphasise what the business is and links to each of the 4 pages 
+      (this will be consistent across all pages)
+    * Section 1 - short introductory section with content about our business and what we do
+    * Section 2 - section with a little information about why it is so important to ensure dogs get regular exercise
+    * Section 3 - some client testimonials from people who have used the business 
     * Footer with 'get in touch' link and social media links (this will be consistent across all pages)
 - Services page
     * Navbar (as above)
@@ -57,20 +57,23 @@ This project will ensure the user can clearly understand what service the busine
     * Footer (as above)
 - Team page
     * Navbar (as above)
-    * 'meet the team' section will include photos and bio of each of our walkers
+    * 'Meet the team' section will include photos and bio of each of our walkers
     * Footer (as above)
 - Contact Page
     * Navbar (as above)
     * Contact form 
-    * Map showing area where we are based
+    * Map showing area where we are based (general map)
+    * Footer (as above)
 
 
-### Features Left to Implement
-- A secure online booking system, which would show available times for each individual walker and one-click to book a time, returning a confirmation either on screen or sent to the customers email address.
+### Features Left to Implement 
+
+The following features are outside the scope of this MS1 project but are key features that should be implemented in the future in order to provide a better user experience 
+as well as a more time efficient system for the business owner.
+
+- A secure online booking system, which would show available times for each individual walker and one-click to book a time, returning a confirmation either on screen or 
+    sent to the customers email address.
 - A secure online payment system, accepting credit card payment.
-
- These features are outside the scope of this MS1 project but are key features that should be implemented in order to provide a better user experience as well as a more time efficient system for the business owner.
-
 
 
 ## Technologies Used
@@ -101,12 +104,44 @@ This project will ensure the user can clearly understand what service the busine
 
 ### Bugs & Fixes
 
-* Wireframe issues - problems linking to wireframes from this file so I moved the wireframes folder from assets to root level, re-exported the original wireframes from Balsamiq and re-loaded to the wireframes folder. Content of wireframes not changed from original during this process. 
+* Wireframe issues - problems linking to wireframes from this file so I moved the wireframes folder from assets to root level, re-exported the original wireframes from Balsamiq 
+and re-loaded to the wireframes folder. Content of wireframes not changed from original during this process. 
 
 
 ## Deployment
 
+This project was developed using the Gitpod IDE, commited using git version control and pushed to Github. 
+The project was then deployed to GitHub Pages using the following steps:
 
+1. Log into GitHub.
+2. From the list of repositories, select __mosull20/lucky-dog-ms1__.
+3. From the menu items above the repository contents, select __Settings__.
+4. Scroll down to the __GitHub Pages__ section.
+5. Under __Source__, select __Master Branch__ from the dropdown menu.
+6. The page is automatically refreshed and the website is now deployed.
+7. To retrieve the link to the live website, scroll back down to the __GitHub Pages__ section.
+
+How to run this project locally
+
+To clone or fork this project you will need a [Github](https://github.com/) account 
+
+* Forking this project
+
+If you wish to make a forked copy of this repository to potentially collaborate, take the following steps:
+
+1. Open the [Project repository homepage](https://github.com/mosull20/lucky-dog-ms1).
+2. At the top right of the repository page, above the Settings button, click on the __Fork__ button.
+3. This will create a copy of this porject in your own Github account.
+
+If you wish to clone or download the project to work on locally, take the following steps:
+
+1. Open the [Project repository homepage](https://github.com/mosull20/lucky-dog-ms1).
+2. Click on the __Code__ button at the top right of the file list.
+3. Under __Clone__ with the HTTPS option selected, copy the url link.
+4. In your local IDE, open the terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type in __git clone__ and then paste the url you copied in step 3.
+7. Press enter and your local clone will be created.
 
 ## Credits
 
