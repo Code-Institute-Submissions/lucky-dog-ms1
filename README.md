@@ -93,6 +93,7 @@ as well as a more time efficient system for the business owner.
 * [Github](https://github.com/) - Code hosting platform
 * [Pixlr](https://pixlr.com/) - photo editor to resize images
 * [TinyPNG](https://tinypng.com/) - used to compress images
+* [favicon.io](https://favicon.io/favicon-generator/) - used to generate favicon for the site
 
 ## Testing
 
@@ -154,6 +155,7 @@ If you wish to clone or download the project to work on locally, take the follow
 ### Code
 
 * CSS code for styling the blockquotes section taken from [Stackskills course](https://stackskills.com/courses/author/18484) by Jonas Schmedtmann "Build Responsive Real World Websites with HTML5 and CSS3". 
+* Code for inserting favicon taken from [Youtube](https://www.youtube.com/watch?v=kEf1xSwX5D8) video by Dani Krossing - recommended in Anna Greaves' (Code Institute) document Milestone 1 part 3
 
 ### Media
 
