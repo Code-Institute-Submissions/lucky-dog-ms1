@@ -30,7 +30,7 @@ h6 {
 h4, 
 h5, 
 h6 {
-    color: #ee4f4f;
+    color: #d64747;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -212,6 +212,11 @@ img {
      padding-bottom: 15px;
  }
 
+ .price-box-img {
+     height: 100px;
+     width: auto;
+ }
+
 /*------Home page sections------*/
 .about-us {
     padding-top: 15px;
@@ -221,7 +226,7 @@ img {
     text-decoration: none;
 }
 .int-link {
-    color: #ee4f4f;
+    color: #d64747;
 }
 .reasons {
     padding-top: 15px;
@@ -292,11 +297,20 @@ blockquote:before {
 .sitting-box p {
     padding: 5px 8px 5px 8px;
 }
+
+.monthly-box p {
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+.prices-list {
+    list-style: none;
+    padding-left: 3px;
+}
 .service-end-row {
     margin-bottom: 40px;
 }
 .hr-services {
-    background-color: #ee4f4f;
+    background-color: #d64747;
     width: 33%;
 }
 
