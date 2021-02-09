@@ -170,10 +170,17 @@ If you wish to clone or download the project to work on locally, take the follow
    + Client testimonial photo 2 Photo by [RitaE](https://pixabay.com/users/ritae-19628/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3635504) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3635504)
    + Client testimonial photo 3 Photo by [Baptist Standaert](https://unsplash.com/@baptiststandaert?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/dog-on-lead?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
    
+* Services page images
+    + Single photo by [Mirko Sajkov](https://unsplash.com/@mirkosajkov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+    + Weekly photo by [Bill Emrich](https://www.pexels.com/@bill-emrich-64742) from [Pexels](https://www.pexels.com/)
+    + Monthly photo by [Bharathi Kannan](https://unsplash.com/@bk010397?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/puppies?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+    + Dog sitting photo by <span>Photo by [Josh Hild](https://unsplash.com/@joshhild?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/funny-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 * Team page images - 
    + Team Photo 'Debrorah' Photo by [Wade Austin Ellis](https://unsplash.com/@wadeaustinellis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/woman-with-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
    + Team Photo 'Michelle' Photo by [Luke McKeown](https://unsplash.com/@waikatospear?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/woman-with-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
    + Team Photo "Sean" Photo by [Zach Lucero](https://unsplash.com/@zlucerophoto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/man-with-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 
 
 ### Acknowledgements
