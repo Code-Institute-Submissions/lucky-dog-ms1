@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&family=Lato:wght@100;300;700&family=Oswald:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&family=Lato:wght@100;300;700&family=Oswald:wght@200;300;400;600&family=Sriracha&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
@@ -34,8 +34,14 @@ h6 {
     font-weight: 500;
     text-transform: uppercase;
 }
-#company-description {
-    font-size: 20px;
+#company-name, 
+#comp-description {
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+}
+
+#comp-description {
+    text-transform: none;
 }
 .service-heading,
 .team-heading,
@@ -70,7 +76,7 @@ h6 {
 .col-logo {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 0;
+    padding-left: 10px;
     padding-right: 0;
 
 }
@@ -96,6 +102,15 @@ nav ul {
     padding-bottom: 10px;
 }
 
+.hamburger-menu-icon {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
 /*----Nav & Footer items---*/
 ul .menuitem a {
     font-size: 16px;
@@ -111,16 +126,15 @@ ul .menuitem a {
     text-decoration: none;
 }
 .menuitem a:hover {
-    color: #ee4f4f;
+    color: #dee6f9;
     transition: 1s;
 }
 .active a {
-    color: #ee4f4f;
+    color: #dee6f9;
 }
 /*--------Footer--------*/
 
-.footer-container 
-.menuitem {
+.footer-container .menuitem {
     height: 40px;
 }
 .footer-container a {
@@ -152,7 +166,7 @@ ul .menuitem a {
     font-weight: 500;
 }
 .center-btn a:hover {
-    color: #ee4f4f;
+    color: #dee6f9;
     transition: 1s;
 }
 .center-btn {
@@ -166,11 +180,11 @@ ul .menuitem a {
     text-align: center;
 }
 .team-contact-btn a:hover {
-    color: #ee4f4f;
+    color: #dee6f9;
     transition: 1s;
 }
 .submit-btn:hover {
-    color: #ee4f4f;
+    color: #dee6f9;
     transition: 1s;
 }
 
@@ -253,7 +267,7 @@ blockquote:before {
 .service-heading-row,
 .team-heading-row,
 .contact-heading-row {
-    padding-top: 40px;
+    padding-top: 5px;
 }
 .service-box-row,
 .team-row {
@@ -268,7 +282,7 @@ blockquote:before {
     margin-top: 15px;
     margin-bottom: 15px;
     width: 82%;
-    height: 43vh;
+    height: 380px;
     margin-left: 9%;
     box-shadow: 10px 10px 10px #616775;   
 }
@@ -314,7 +328,7 @@ blockquote:before {
 
 @media screen and (max-width: 767px) {
         body {
-        padding-top: 40%;
+        padding-top: 21%;
     }
         ul .menuitem a {
         font-size: 12px;
@@ -334,7 +348,7 @@ blockquote:before {
 
 @media screen and (min-width: 768px) {
         body {
-            padding-top: 20%;
+            padding-top: 15%;
         }
     
         .social-links p {
