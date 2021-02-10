@@ -157,7 +157,6 @@ ul .menuitem a {
 /*-------Buttons---------*/
 .btn {
     background-color: #616775;
-    border-color: #616775;
     color: whitesmoke;
     font-weight: 500;
 }
@@ -330,6 +329,8 @@ blockquote:before {
 }
 .map-col iframe {
     padding-top: 20px;
+    width: 100%;
+    border: none;
 }
 
 .contact-col .submit-btn {

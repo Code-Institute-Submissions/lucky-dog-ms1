@@ -97,17 +97,7 @@ as well as a more time efficient system for the business owner.
 
 ## Testing
 
-### Code Validation
-
-### Manual Testing
-
-### User stories Testing
-
-### Bugs & Fixes
-
-* Wireframe issues - problems linking to wireframes from this file so I moved the wireframes folder from assets to root level, re-exported the original wireframes from Balsamiq 
-and re-loaded to the wireframes folder. Content of wireframes not changed from original during this process. 
-
+Testing is detailed in a separate document, [HERE](TESTING.md).
 
 ## Deployment
 
