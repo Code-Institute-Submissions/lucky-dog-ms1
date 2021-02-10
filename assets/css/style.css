@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&family=Lato:wght@100;300;700&family=Oswald:wght@200;300;400;600&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&family=Lato:wght@100;300;700&family=Sriracha&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
@@ -38,10 +38,6 @@ h6 {
 #comp-description {
     font-family: 'Sriracha', cursive;
     font-size: 30px;
-}
-
-#comp-description {
-    text-transform: none;
 }
 .service-heading,
 .team-heading,
@@ -218,6 +214,9 @@ img {
  }
 
 /*------Home page sections------*/
+#comp-description {
+    text-transform: none;
+}
 .about-us {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -251,7 +250,7 @@ img {
     padding-bottom: 20px;
 }
 
-/*---Quotes styling----*/
+/*---Quotes styling: code from Stack skills----*/
 blockquote {
     padding: 2%;
     font-style: italic;
@@ -287,7 +286,7 @@ blockquote:before {
     margin-top: 15px;
     margin-bottom: 15px;
     width: 82%;
-    height: 380px;
+    height: 420px;
     margin-left: 9%;
     box-shadow: 10px 10px 10px #616775;   
 }
@@ -315,7 +314,6 @@ blockquote:before {
 }
 
 /*----------Team---------*/
- 
  .team-quals {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -340,53 +338,52 @@ blockquote:before {
 }
 /*-------Media Queries---------*/
 
+/*--Screens under 767px--*/
 @media screen and (max-width: 767px) {
-        body {
+    body {
         padding-top: 21%;
     }
-        ul .menuitem a {
+    ul .menuitem a {
         font-size: 12px;
     }
-        img {
+    img {
         width: 80%;
     }
-        .single-box, 
-        .weekly-box,
-        .monthly-box,
-        .sitting-box 
-            {
-            height: auto; 
-            padding-bottom: 5px;
-            }
+    .single-box, 
+    .weekly-box,
+    .monthly-box,
+    .sitting-box {
+        height: auto; 
+        padding-bottom: 5px;
+    }
 }
-
+/*--Screens above 768px--*/
 @media screen and (min-width: 768px) {
-        body {
-            padding-top: 15%;
-        }
-    
-        .social-links p {
-            display: block;
-        }
-        .footer-container .menuitem {
-            height: 60px;
-        }
-        img {
-            width: 70%;
-        }
-        .client-dog-img {
-            width: 200px;
-        }
-        .client-row {
-            width: 96%;
-            margin-left: 2%;
-            margin-right: 2%;
-        }
+    body {
+        padding-top: 15%;
+    }
+    .social-links p {
+        display: block;
+    }
+    .footer-container .menuitem {
+        height: 60px;
+    }
+    img {
+        width: 70%;
+    }
+    .client-dog-img {
+        width: 200px;
+    }
+    .client-row {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
-
+/*--Screens above 992px--*/
 @media screen and (min-width: 992px) {
         body {
-            padding-top: 10%;
+            padding-top: 8%;
             padding-bottom: 10%;
     }
         footer {
