@@ -22,9 +22,7 @@ header {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
     font-family: 'Exo', sans-serif;
     font-size: 25px;
     font-weight: 300;
@@ -34,9 +32,8 @@ h6 {
     margin-bottom: 10px;
     color: whitesmoke;
 }
-h4, 
-h5, 
-h6 {
+h3,
+h4 {
     color: #d64747;
     font-weight: 500;
     text-transform: uppercase;
@@ -234,6 +231,8 @@ img {
 /*------Home page sections------*/
 #comp-description {
     text-transform: none;
+    color: #d64747;
+    font-weight: 500;
 }
 .about-us {
     padding-top: 15px;
@@ -244,6 +243,7 @@ img {
 }
 .int-link {
     color: #d64747;
+    font-weight: 300;
 }
 .reasons {
     padding-top: 15px;
