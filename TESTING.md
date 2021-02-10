@@ -24,10 +24,17 @@
     * Solution - no action required on first warning as the @import content cannot be checked. Re the second warning, I removed border-color style rule from style.css 
     as it was unnecessary.
 
+    * NOTE: the above was done before running my css file through the autoprefixer resource. After, I ran it again through the Validator and got the following warnings. 
+    ![Error image](testing-images/css-autoprefixer-warnings.png)
+    * After checking this on the Slack community, I understand these warnings do not require action.
+
 
 
 
 ### Manual Testing
+
+
+
 
 ### User stories Testing
 

@@ -94,6 +94,7 @@ as well as a more time efficient system for the business owner.
 * [Pixlr](https://pixlr.com/) - photo editor to resize images
 * [TinyPNG](https://tinypng.com/) - used to compress images
 * [favicon.io](https://favicon.io/favicon-generator/) - used to generate favicon for the site
+* [Autoprefixer.io](https://autoprefixer.github.io/) - used to add vendor prefixes for the major browsers.
 
 ## Testing
 
