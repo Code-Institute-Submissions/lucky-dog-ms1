@@ -182,3 +182,7 @@ If you wish to clone or download the project to work on locally, take the follow
 
 ### Acknowledgements
 
+* Code Institute Slack community was an invaluable resource, in particular, content shared by Anna Greaves (Code Institute)
+including Milestone 1 pdf's & the ReadMe webinar, and content shared by Jim Morel including MS1 planning sessions on Youtube.
+
+* I would also like to thank my mentor Nishant Kumar for all his advice and support through this process.
