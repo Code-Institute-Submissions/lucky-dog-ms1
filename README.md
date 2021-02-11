@@ -1,5 +1,11 @@
 # Lucky Dog
 
+![Am I responsive screenshot](testing-images/responsive-screenshot.png)
+
+**View the live website [here](https://mosull20.github.io/lucky-dog-ms1/)**
+
+--- 
+
 Lucky dog is a website created for a fictional small business providing dog walking services in the Cork City area. 
 The website is for anyone that owns or cares for a dog and may not have the time, or may not be physically able to walk their dogs every day.
 
@@ -172,7 +178,7 @@ If you wish to clone or download the project to work on locally, take the follow
    + Team Photo 'Michelle' Photo by [Luke McKeown](https://unsplash.com/@waikatospear?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/woman-with-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
    + Team Photo "Sean" Photo by [Zach Lucero](https://unsplash.com/@zlucerophoto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/man-with-dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-
+* [Am I Responsive.com](http://ami.responsivedesign.is/) - used to create the screenshot used at top of Readme file. 
 
 ### Acknowledgements
 
