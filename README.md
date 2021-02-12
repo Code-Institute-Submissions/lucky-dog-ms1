@@ -46,6 +46,15 @@ The primary goal of the website from a user's perspective is to easily find a pr
 
 ### Design
 
+Overall, the aim with this project was to keep the design simple and user friendly at all times, not overloading with information or content all on one page but spread across
+four pages, each with a very clear and simple purpose in terms of what is being presented to the user. Color palette is very simple with contrasting dark grey for the header and 
+footer - to always draw the users attention to the key navigation points; a dark orange/red for headings and use of a lighter grey on the home page to make a subtle distinction 
+between sections. Images were used to provide some additional color and interest across the site. Typography also was kept quite simple, predominantly using the popular Lato font 
+which is easy for users to read, with headings in the Exo font. Sriracha font was used for the company name on the header and key headline on the home page, to provide a subtle contrast
+in order for those to stand out a little more.
+The final design differed slightly from the wireframes originally drawn up. These small differences in layout were down to personal choices as to what I felt worked better 
+for the site when seeing it on screen, along with feedback from family members. 
+
 ## Features
 
 #### Existing Features
