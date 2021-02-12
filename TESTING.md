@@ -153,6 +153,10 @@ The heading and content on the home page emphasise this business provides dog wa
 
 On the home page, content descibes how all walkers are animal first aid qualified with a link here to the detailed team page for further info.
 
+* _As a user, I want to find out what people who have used the business have said about it._
+
+On the home page, there is a 'client testimonials' section with reviews of the business from previous clients.
+
 * _As a user, I want to find out who the dog walkers are and what experience they have with dogs._
 
 The navigation menu provides a link to the 'Meet the team' page. Here it details each of our walkers previous experience with dogs and any qualifications they hold 
@@ -190,8 +194,11 @@ ___
 * Wireframe issues - problems linking to wireframes from this file so I moved the wireframes folder from assets to root level, re-exported the original wireframes from Balsamiq 
 and re-loaded to the wireframes folder. Content of wireframes not changed from original during this process. 
 
-* Had issues when using the bootstrap 'fixed-top' class for the navbar that it was blocking content at the top of the page. I found a solution to this on Stack Overflow after a google
+* Had issues when using the bootstrap 'fixed-top' class for the navbar that it was blocking content at the top of the page. I found a solution to this on [Stack Overflow](https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page) after a google
 search led me there. This solution consisted of adding padding to the body and using media queries to adjust it for each breakpoint as necessary. 
+
+* Had issues with the bootstrap collapsed menu icon re targeting it for styling, on googling the issue, I saw a suggestion on [Stack Overflow](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color) about using a font-awesome hamburger icon 
+instead to make styling easier. This is the approach I adopted to get the results I wanted. 
 
 * On initial Lighthouse testing, SEO was reading at 81, one opportunity it highlighted to improve this was to add metadata tags.
 I then added the meta tage with description, keywords and author. This improved the SEO to the above result.

@@ -29,6 +29,7 @@ The primary goal of the website from a user's perspective is to easily find a pr
 * As a user of this website, I want to find out what the business does and what services they provide.
 * As a user, I want to find out in what geographical areas are services available. 
 * As a user, I want to be reassured they will keep my dog safe.
+* As a user, I want to find out what people who have used the business have said about it.
 * As a user, I want to find out who the dog walkers are and what experience they have with dogs. 
 * As a user, I want to know how much it will cost me to employ a dog walker through this business.
 * As a user, I want to be able to easily find out how to contact the business if I want more information or have more questions. 
@@ -60,8 +61,9 @@ for the site when seeing it on screen, along with feedback from family members.
 #### Existing Features
 
 - Home page
-    * Navbar with company name and logo (logo will be linked to click back to the home page), a heading to emphasise what the business is and links to each of the 4 pages 
+    * Navbar with company name and logo (logo will be linked to click back to the home page), and links to each of the 4 pages 
       (this will be consistent across all pages)
+    * Heading to emphasise what the business does and where
     * Section 1 - short introductory section with content about our business and what we do
     * Section 2 - section with a little information about why it is so important to ensure dogs get regular exercise
     * Section 3 - some client testimonials from people who have used the business 
@@ -113,7 +115,7 @@ as well as a more time efficient system for the business owner.
 
 ## Testing
 
-Testing is detailed in a separate document, [HERE](TESTING.md).
+Testing is detailed in a separate document, [here](TESTING.md).
 
 ## Deployment
 
@@ -162,6 +164,7 @@ If you wish to clone or download the project to work on locally, take the follow
 
 * CSS code for styling the blockquotes section taken from [Stackskills course](https://stackskills.com/courses/author/18484) by Jonas Schmedtmann "Build Responsive Real World Websites with HTML5 and CSS3". 
 * Code for inserting favicon taken from [Youtube](https://www.youtube.com/watch?v=kEf1xSwX5D8) video by Dani Krossing - recommended in Anna Greaves' (Code Institute) document Milestone 1 part 3
+* CSS Code for box shadow on services page taken from [W3 schools.com](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
 
 ### Media
 

@@ -268,7 +268,7 @@ img {
     padding-bottom: 20px;
 }
 
-/*---Quotes styling: code from Stack skills----*/
+/*---Quotes styling: code from Jonas Schmedtmann on Stack skills----*/
 blockquote {
     padding: 2%;
     font-style: italic;
@@ -295,6 +295,7 @@ blockquote:before {
 .team-row {
     padding-top: 30px;
 }
+/*--Box shadow section of code from W3 schools.com--*/
 .single-box, 
 .weekly-box,
 .monthly-box,
