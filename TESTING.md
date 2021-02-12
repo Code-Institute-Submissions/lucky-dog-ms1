@@ -100,6 +100,7 @@ or stretched when at different screen sizes.
 + Footer section:
   - clicked on Get in Touch link - brings user to contact page as expected
   - clicked on each social media link to ensure it brings the user to social media pages that open in a new browser window, all performed as expected
+  - noticed in final testing that on iphone 5 size, the instagram icon was hidden from view so I adjusted the font-size for that container to 16px to allow it fit at all screen sizes.
 
 **__Services page__**
 + Repeated all the above steps re the Nav Bar and Footer to ensure those links all work as expected on this page

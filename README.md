@@ -140,7 +140,7 @@ If you wish to make a forked copy of this repository to potentially collaborate,
 
 1. Open the [Project repository homepage](https://github.com/mosull20/lucky-dog-ms1).
 2. At the top right of the repository page, above the Settings button, click on the __Fork__ button.
-3. This will create a copy of this porject in your own Github account.
+3. This will create a copy of this project in your own Github account.
 
 If you wish to clone or download the project to work on locally, take the following steps:
 

@@ -152,7 +152,8 @@ ul .menuitem a {
     padding-top: 5px;
 }
 .menuitem .social-links {
-   text-align: center;
+   text-align: center; 
+   font-size: 16px;
 }
 .social-links p {
     margin-bottom: 0;
