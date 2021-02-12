@@ -140,6 +140,49 @@ ___
 
 ### User stories Testing
 
+* _As a user of this website, I want to find out what the business does and what services they provide._
+
+On the home page, the first section of content describes a short summary of what this business does and the services provided. The navigation links at the top of the page show
+a link to click on 'Our Services' which brings the user to the Services page which has full details here.
+
+* _As a user, I want to find out in what geographical areas are services available._
+
+The heading and content on the home page emphasise this business provides dog walking services all around the Cork city area. 
+
+* _As a user, I want to be reassured they will keep my dog safe._
+
+On the home page, content descibes how all walkers are animal first aid qualified with a link here to the detailed team page for further info.
+
+* _As a user, I want to find out who the dog walkers are and what experience they have with dogs._
+
+The navigation menu provides a link to the 'Meet the team' page. Here it details each of our walkers previous experience with dogs and any qualifications they hold 
+relating to animal care.
+
+* _As a user, I want to know how much it will cost me to employ a dog walker through this business._
+
+The navigation menu provides a link to 'Our Services' page which details the pricing structure, including options for regular, weekly walks and monthly options.
+
+* _As a user, I want to be able to easily find out how to contact the business if I want more information or have more questions._ 
+
+Throughout the site there are multiple links to encourage the user to go to the contact page and send an enquiry. The navigation menu provides a clear link to 'Contact us' page,
+The home page content under the first heading also contains a link to 'get in touch' which will lead the user to the contact page. The footer also contains a clear 'Get in Touch' link
+which will open the contact page. The services page also has a contact us button under each option, these open the contact page. Another link is contained in a button on the team page,
+clearly marked contact us. On the contact page, there is a simple short form to submit with your message and a Send it button underneath. 
+Note: no phone number or business address is listed here as this is a fictional business designed solely for the purpose of the MS1 project for Code Institute. 
+
+* _As a user, I want to be able to easily find out what the next step is if I wish to book a walk._ 
+
+On the pricing page, there is a contact button to lead the user to the contact page to fill out the message form. As noted, a feature to implement at a future date would be an online booking
+system so user can book directly on the website. This would give the user a better experience but it is currently outside the scope of this project. 
+
+* _As a user, I want to find out if there is a package of recurring walks and if this is more cost effective for me._
+
+The pricing system is clearly and simply laid out in box format on the Services page and shows the value of booking weekly or monthly.
+
+* _As a user, I want to be able to follow them on social media for the very latest updates._
+
+Social Media links are in the footer section with the icon for each social media platform as a link that will open these in a new browser window to ensure the user can easily come back to
+the Lucky dog website.
 ___
 
 ### Bugs & Fixes
@@ -147,8 +190,14 @@ ___
 * Wireframe issues - problems linking to wireframes from this file so I moved the wireframes folder from assets to root level, re-exported the original wireframes from Balsamiq 
 and re-loaded to the wireframes folder. Content of wireframes not changed from original during this process. 
 
+* Had issues when using the bootstrap 'fixed-top' class for the navbar that it was blocking content at the top of the page. I found a solution to this on Stack Overflow after a google
+search led me there. This solution consisted of adding padding to the body and using media queries to adjust it for each breakpoint as necessary. 
+
 * On initial Lighthouse testing, SEO was reading at 81, one opportunity it highlighted to improve this was to add metadata tags.
 I then added the meta tage with description, keywords and author. This improved the SEO to the above result.
 Lighthouse also gave me the opportunity to spot that I had not gone in sequential order with my h tags so I amended this and it also
 helped to improve the accessibilty from an initial reading of 88.
+
+* Using Chrome DevTools, I noticed my original color choice (a lighter shade of orange/red) showed a poor contrast ratio which would make the text less legible so using the color picker
+feature in DevTools, I was able to improve this to a more accessible, deeper shade for better contrast. 
 
