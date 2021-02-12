@@ -42,7 +42,7 @@ The primary goal of the website from a user's perspective is to easily find a pr
 * [Home page](wireframes/homepage.pdf)
 * [Services page](wireframes/servicespage.pdf)
 * [Team page](wireframes/teampage.pdf)
-* [Contact page](wireframes/teampage.pdf)
+* [Contact page](wireframes/contactpage.pdf)
 
 ### Design
 
